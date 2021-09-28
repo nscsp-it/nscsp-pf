@@ -1,25 +1,25 @@
 // config.js
 module.exports = {
     github: {
-        username: 'arifszn', // Your GitHub org/user name. (Required)
+        username: 'nscsp-it', // Your GitHub org/user name. (Required)
         sortBy: 'stars', // stars | updated
         limit: 8, // How many projects to display.
         exclude: {
-            forks: false, // Forked projects will not be displayed if set to true.
+            forks: true, // Forked projects will not be displayed if set to true.
             projects: [] // These projects will not be displayed. example: ['my-project1', 'my-project2']
         }
     },
     social: {
         linkedin: 'ariful-alam',
-        twitter: 'arif_swozon',
-        facebook: '',
+        twitter: 'NscspI',
+        facebook: 'NSCSP.US',
         dribbble: '',
         behance: '',
         medium: '',
         devto: '',
-        website: 'https://arifszn.github.io',
-        phone: '',
-        email: 'contact@arifszn.com'
+        website: 'https://nscsp-it.github.io',
+        phone: '999-999-9999',
+        email: 'nscspit@gmail.com'
     },
     skills: [
         'PHP',
@@ -79,19 +79,19 @@ module.exports = {
     blog: {
         // Display blog posts from your medium or dev.to account. (Optional)
         source: 'dev.to', // medium | dev.to
-        username: 'arifszn',
+        username: 'nscspit',
         limit: 2 // How many posts to display. Max is 10.
     },
     googleAnalytics: {
         // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
-        id: 'G-WLLB5E14M6' // Please remove this and use your own tag id
+        id: '' // Please remove this and use your own tag id
     },
     hotjar: {
-        id: '2617601', //  Please remove this and use your own id
+        id: '', //  Please remove this and use your own id
         snippetVersion : 6
     },
     themeConfig: {
-        default: 'light',
+        default: 'dark',
 
         // Hides the switch in the navbar
         // Useful if you want to support a single color mode
