@@ -58,7 +58,7 @@ module.exports = {
     ],
     education: [
         { 
-            institution: 'American International University-Bangladesh',
+            institution: 'American International University',
             degree: 'Bachelor of Science',
             from: '2015',
             to: '2019'
