@@ -2,13 +2,13 @@
     "name": "ezprofile",
     "version": "1.0.1",
     "description": "Kickstart your personal portfolio with Github Api and blog",
-    "homepage": "https://arifszn.github.io/ezprofile",
+    "homepage": "",
     "private": true,
     "license": "Apache-2.0",
     "author": "arifszn",
     "repository": {
         "type": "git",
-        "url": "https://github.com/arifszn/ezprofile.git"
+        "url": "http://nscsp-it.github.io/nscsp-pf"
     },
     "dependencies": {
         "@craco/craco": "^6.2.0",
