@@ -1,40 +1,7 @@
-<p align="center">
-  <a href="http://arifszn.github.io/ezprofile" target="_blank">
-    <img src="https://arifszn.github.io/assets/img/hosted/ezprofile/logo.png" alt="ezProfile" title="ezProfile" width="80">
-  </a>
-</p>
 
-<h1 align="center">ezProfile</h1>
 <p align="center">A modern, responsive and customizable portfolio builder for Developers!</p>
-<p align="center">https://arifszn.github.io/ezprofile</p>
+<p align="center">http://nscsp-it.github.io/nscsp-pf</p>
 
-<br/>
-
-<p align="center">
-    <a href="https://arifszn.github.io/ezprofile">
-        <img src="https://arifszn.github.io/assets/img/hosted/ezprofile/preview.gif" width="60%" alt="Preview"/>
-    </a>
-    <br/>
-    <a href="#arifszn"><img src="https://arifszn.github.io/assets/img/drop-shadow.png" width="60%" alt="Shadow"/></a>
-</p>
-
-**ezProfile** is an easy-to-customize personal dev portfolio builder that is created with React.js. When you manage the code in a GitHub repository, it will automatically render a webpage with the owner's profile information, including a photo, bio, and public repositories. Also, it includes space to highlight your details, job history, education history, skills, and recent blog posts.
-
-It's all possible using [GitHub API](https://developer.github.com/v3/) (for automatically populating your website with content) and [Article-api](https://github.com/arifszn/article-api) (for fetching recent blog posts).
-
-✓ [21 Themes](#themes)\
-✓ [Google Analytics](#google-analytics)\
-✓ [Hotjar](#hotjar)\
-✓ [Meta Tags](#meta-tags)\
-✓ [Avatar and Bio](#avatar-and-bio)\
-✓ [Social Links](#social-links)\
-✓ [Skills](#skills)\
-✓ [Experience](#experience)\
-✓ [Education](#education)\
-✓ [Projects](#projects)\
-✓ [Blog Posts](#blog-posts)
-
-To view a live example, **[click here](https://arifszn.github.io/ezprofile)**.
 
 
 
@@ -209,23 +176,6 @@ module.exports = {
 }
 ```
 
-![Theme Dropdown](https://arifszn.github.io/assets/img/hosted/ezprofile/themes-1.png)
-
-Here are some screenshots of different themes.\
-<br/>
-![Themes](https://arifszn.github.io/assets/img/hosted/ezprofile/themes-2.png)\
-<br/>
-![Themes](https://arifszn.github.io/assets/img/hosted/ezprofile/themes-3.png)\
-<br/>
-![Themes](https://arifszn.github.io/assets/img/hosted/ezprofile/themes-4.png)\
-<br/>
-![Themes](https://arifszn.github.io/assets/img/hosted/ezprofile/themes-5.png)\
-<br/>
-![Themes](https://arifszn.github.io/assets/img/hosted/ezprofile/themes-6.png)\
-<br/>
-![Themes](https://arifszn.github.io/assets/img/hosted/ezprofile/themes-7.png)
-
-
 ### Google Analytics
 
 ezFolio supports both GA3 and GA4. If you do not want to use Google Analytics, keep the <code>id</code> empty.
@@ -267,7 +217,6 @@ Meta tags will be auto-generated from configs dynamically. However, you can also
 
 Your github avatar and bio will be displayed here.\
 <br/>
-![Avatar Bio](https://arifszn.github.io/assets/img/hosted/ezprofile/avatar-card.png)
 
 
 ### Social Links
@@ -277,17 +226,17 @@ ezProfile supports linking your social media services you're using, including Li
 // config.js
 module.exports = {
   // ...
-  social: {
-    linkedin: 'ariful-alam',
-    twitter: 'arif_swozon',
-    facebook: '',
-    dribbble: '',
-    behance: '',
-    medium: '',
-    devto: '',
-    website: 'https://arifszn.github.io',
-    phone: '',
-    email: ''
+      socaial: {
+        linkedin: '',
+        twitter: 'NscspI',
+        facebook: 'NSCSP.US',
+        dribbble: '',
+        behance: '',
+        medium: '',
+        devto: '',
+        website: 'https://nscsp-it.github.io',
+        phone: '999-999-9999',
+        email: 'nscspit@gmail.com'
   },
 }
 ```
@@ -399,26 +348,7 @@ module.exports = {
   },
 }
 ```
-
-![Blog](https://arifszn.github.io/assets/img/hosted/ezprofile/blog.png)
-
 The posts are fetched by [Article-api](https://github.com/arifszn/article-api).
-
-
-
-## 📢 Please Read
-
-I intend to keep my works open source. Please do not discourage me by claiming this work by copying it as your own or removing/changing the footer notice. However You are open to use this project by forking it and change any code necessary(except footer notice). Go through the [License](https://github.com/arifszn/ezprofile/blob/main/LICENSE) before thinking of stealing this project. For every stolen copy found, an issue will be created on the concerned repo and a [DMCA Takedown](https://www.dmca.com/FAQ/What-is-a-DMCA-Takedown) notice will be sent. Do not fall into this [list](https://github.com/arifszn/ezprofile/issues/2).
-
-
-## 💖 Support
-
-If you are using this project and happy with it or just want to encourage me to continue creating stuff, you can do it by just starring and sharing the project.
-
-
-## 💡 Contributing
-
-Any contributors who want to make this project better can make contributions, which will be greatly appreciated. To contribute, clone this repo locally and commit your code to a new branch. Feel free to create an issue or make a pull request.
 
 ## 📄 License
 
