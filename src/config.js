@@ -10,7 +10,7 @@ module.exports = {
         }
     },
     social: {
-        linkedin: 'ariful-alam',
+        linkedin: 'andrewadhikari',
         twitter: 'NscspI',
         facebook: 'NSCSP.US',
         dribbble: '',
